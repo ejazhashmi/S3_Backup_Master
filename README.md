@@ -53,7 +53,7 @@ dbstobackup=(
 
 # Step 7 create tmp backup directory
 Create the following directory before running the script
-mkdir /home/backups
+mkdir /home/backups && mkdir -p /home/status/
 
 Step 8 setup the cron to run daily.
 

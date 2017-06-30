@@ -32,12 +32,15 @@ Configuration saved to '/root/.s3cfg'
 
 # ep 5 download and edit the script
 
-wget https://dl.dropboxusercontent.com/u/75125577/sync/scripts/s3_upload.sh 
+wget https://raw.githubusercontent.com/ejazhashmi/S3_Backup_Master/master/s3_upload.sh
+
 After download the script run the following commands.
+
 chmod +x s3_upload.sh
 
 # Step 6
 Open the script edit the following
+
 vi /root/scripts/s3_upload.sh
 
 

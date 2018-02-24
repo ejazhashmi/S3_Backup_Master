@@ -16,14 +16,23 @@ rm -rf /root/s3cmd-master && rm -rf /root/master.zip
 # Step 3 Configure S3cmd
 
 s3cmd --configure
+
 Access Key:
+
 Secret Key :
+
 Default Region [US]: Just Enter to select default region.
+
 Encryption password: Just Enter
+
 Path to GPG program [/usr/bin/gpg]:Just Enter to select default
+
 Use HTTPS protocol [Yes]:Just Enter to select default
+
 HTTP Proxy server name:Just Enter to select default
+
 test access with supplied credentials? [Y/n] Y
+
 Success. Your access key and secret key worked fine :-)
 
 # ep 4 save configuration

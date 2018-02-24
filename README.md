@@ -1,16 +1,23 @@
 # How to install S3 offsite backups on Servers
 
 # Step 1 install required packages
+
 apt-get install --assume-yes --force-yes python-setuptools makepasswd
 
 # Step 2 downloads and installs S3cmd 
 
 cd /root/
+
 wget -q https://github.com/s3tools/s3cmd/archive/master.zip
+
 unzip -qq master.zip
+
 cd /root/s3cmd-master
+
 python setup.py install
+
 cd /root/scripts/
+
 rm -rf /root/s3cmd-master && rm -rf /root/master.zip
 
 # Step 3 Configure S3cmd
@@ -37,6 +44,7 @@ Success. Your access key and secret key worked fine :-)
 
 # ep 4 save configuration
 Save settings? [y/N] Y
+
 Configuration saved to '/root/.s3cfg'
 
 # ep 5 download and edit the script
